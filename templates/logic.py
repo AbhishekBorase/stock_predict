@@ -4,9 +4,7 @@ import pandas_datareader as web
 import numpy as np
 from sklearn.svm import SVR
 import json
-import matplotlib.pyplot as plt
 
-plt.style.use('fivethirtyeight')
 today = date.today()
 now = today.strftime('%Y-%m-%d')
 
